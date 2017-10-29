@@ -1,7 +1,7 @@
 {
-  "name": "My App",
-  "short_name": "My App",
-  "description": "My App description",
+  "name": "Loodle",
+  "short_name": "Loodle",
+  "description": "Loodle PWA",
   "icons": [
     {
       "src": "images/manifest/icon-192x192.png",

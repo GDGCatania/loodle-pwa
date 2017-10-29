@@ -1,9 +1,10 @@
 {
-  "name": "polymer-starter-kit",
+  "name": "Loodle",
   "authors": [
-    "The Polymer Authors"
+    "Gabriele Messina (Gabryelemessina99@gmail.com)",
+    "Raffaele Barone"
   ],
-  "license": "https://polymer.github.io/LICENSE.txt",
+  "license": "https://github.com/GDGCatania/loodle-pwa/blob/master/LICENSE",
   "dependencies": {
     "app-layout": "PolymerElements/app-layout#^2.0.0",
     "app-route": "PolymerElements/app-route#^2.0.0",
