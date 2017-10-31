@@ -23,7 +23,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="my-icons.html">
 
 <link rel="lazy-import" href="qr-scanner.html">
-<link rel="lazy-import" href="my-view2.html">
+<link rel="lazy-import" href="loodle-login.html">
 <link rel="lazy-import" href="my-view3.html">
 <link rel="lazy-import" href="my-view404.html">
 
@@ -86,7 +86,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <app-toolbar>Menu</app-toolbar>
         <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
           <a name="qr-scanner" href="[[rootPath]]qr-scanner">QR Scanner</a>
-          <a name="my-view2" href="[[rootPath]]my-view2">View Two</a>
+          <a name="loodle-login" href="[[rootPath]]loodle-login">Login</a>
           <a name="my-view3" href="[[rootPath]]my-view3">View Three</a>
         </iron-selector>
       </app-drawer>
@@ -107,7 +107,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             fallback-selection="my-view404"
             role="main">
           <qr-scanner name="qr-scanner"></qr-scanner>
-          <my-view2 name="my-view2"></my-view2>
+          <loodle-login name="loodle-login"></loodle-login>
           <my-view3 name="my-view3"></my-view3>
           <my-view404 name="my-view404"></my-view404>
         </iron-pages>
